@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-primary font-['Playfair_Display']">
-              Premium Poultry
+              Saikrishna poultry
             </h3>
             <p className="text-sm text-muted-foreground">
               Delivering premium quality poultry products from our certified organic farm to your table.
@@ -60,15 +60,17 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-muted-foreground">123 Farm Road, Agriculture District</span>
+                <span className="text-muted-foreground">
+                  Plot No : 16, Road Number : 2, Mamatanagar Colony, Nagole, Hyderabad - 68
+                </span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={16} className="text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">9246659508</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} className="text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">info@premiumpoultry.com</span>
+                <span className="text-muted-foreground">info@saikrishnapoultry.com</span>
               </li>
             </ul>
           </div>
